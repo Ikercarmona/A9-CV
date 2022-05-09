@@ -13,11 +13,13 @@
         }
         
         h2 {
-            font-size: 2rem;
+            font-size: 2.5rem;
+            color: #46718a;
         }
         
         h3 {
-            font-size: 1.6rem;
+            font-size: 3.5rem;
+            color: #46718a;
         }
         
         h4 {
@@ -30,6 +32,7 @@
         
         h6 {
             font-size: 1.05rem;
+            color: #46718a;
         }
         /**************************/
         /* clases predefinidas */
@@ -88,7 +91,9 @@
         /* Otras clases */
         
         img {
-            width: 90%;
+            width: 350px;
+            height: 350px;
+            object-fit: cover;
         }
         
         .fondo_2 {
@@ -127,6 +132,20 @@
             background-color: black;
             color: green;
             padding: 10px;
+        }
+        
+        .iconodes {
+            width: 120px;
+            height: 120px;
+        }
+        
+        .iconodes:hover {
+            transform: scale(1.2);
+            transition-duration: 0.5s;
+        }
+        
+        p {
+            font-size: 1.4rem;
         }
         /* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
         
